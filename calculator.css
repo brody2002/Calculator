@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    
 }
 .container{
     width: 100%;
@@ -39,6 +40,8 @@ form .display{
     display: flex;
     justify-content: flex-end;  
     margin: 20px 0;
+    background: rgba(103, 190, 2, 1);
+
 
 }
 form .display input{
@@ -46,6 +49,12 @@ form .display input{
     flex: 1;
     font-size: 45px;
     box-shadow: none; 
+    color:rgb(49, 49, 49);
+    font-family: 'Orbitron', sans-serif;
+    white-space: nowrap;
+    overflow: scroll;
+    text-overflow: hidden;
+    max-width: 300px;
 }
 
 form input.large_button{
